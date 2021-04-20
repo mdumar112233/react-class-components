@@ -9,12 +9,13 @@ class Home extends Component {
             users:[],
             cart: []
         };
+        // this.handleAddToCard = this.handleAddToCard.bind(this);
     }
     
-    handleAddToCard(user){
-        const newCart = [...this.state.cart];
-        this.setState({cart: newCart});
-        console.log(user);
+    handleAddToCard(users){
+        // const newCart = [...this.state.cart, users];
+        // this.setState({cart: newCart});
+        console.log(users);
     }
 
     componentDidMount() {
